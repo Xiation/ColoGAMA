@@ -1,6 +1,6 @@
 from PySide2 import QtWidgets
 
-from Ui.ui_mainWindow import Ui_MainWindow
+from asset.ui_mainWindow import Ui_MainWindow
 
 from src.camera import run_camera
 
