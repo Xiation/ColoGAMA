@@ -2,7 +2,7 @@ from PySide2 import QtWidgets
 
 from asset.ui_mainWindow import Ui_MainWindow
 
-from src.camera import run_camera
+# from src.camera import run_camera
 
 from PySide2.QtCore import QThread, Signal, Slot
 
@@ -33,8 +33,8 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.exitBtn.clicked.connect(self.exit_app)
         self.ui.runCamera.clicked.connect(self.start_camera)
     
-    def start_camera(self):
-        run_camera()
+    # def start_camera(self):
+        # run_camera()
 
     def exit_app(self):
         exit()   
