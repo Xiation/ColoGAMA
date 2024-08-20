@@ -132,7 +132,7 @@ def cameraColo():
     pixels1.fill((0, 0, 0))
 
 # Tutup jendela plot terakhir jika masih terbuka
-plt.close()
+    plt.close()
 
 # Tutup jendela kamera setelah selesai
-cv2.destroyAllWindows()
+    cv2.destroyAllWindows()
